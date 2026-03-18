@@ -4,86 +4,517 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Areesha Portfolio</title>
-    <link href="{% static 'css/main.css' %}" rel="stylesheet" type="text/css" />
+    <title>Areesha Sattar – Web & AI Developer Resume</title>
     <link
+      href="{% static '/css/main.css'  %}"
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Source+Sans+3:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
     />
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-          <div class="card card-body h-100 border-info" id="profile-wrapper">
-              <img id="profile-pic" src="{% static "/images/areesha.jpg" %}"> 
-            <hr>
-            <h4 > Hi I'm Areesha!</h4>
-            <p>I love coding, doing research and collaborating</p>
-          </div>
+    <div class="page">
+      <!-- ══ HEADER ══ -->
+      <header class="header">
+        <h1>Areesha Sattar</h1>
+        <p class="role">
+          Web &amp; AI Developer &nbsp;·&nbsp; Full-Stack &nbsp;·&nbsp; Agentic
+          AI
+        </p>
+      </header>
+
+      <!-- ══ CONTACT BAR ══ -->
+      <div class="contact-bar">
+        <div class="ci">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.58.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.01L6.6 10.8z"
+            />
+          </svg>
+          0331-2969746
         </div>
-        <div class="col-md-9">
-          <div class="card card-body h-100">
-            <h4>My First Job as a Developer</h4>
-					<hr>
-					<p>3 months after writing my first Hello World program on September 8th 2017 (While working in the marketing department) I had convinced my boss to let me take a stab at building a better version of the outdated laboratory management system my company was running on.</p>
-
-					<p>Before I knew it we transitioned from the old system and we're on to mine. My newbie self was now in charge of hosting hundreds of thousands of lab samples and supporting thousands of clients.</p>
-
-					<p>From this you’ll see that I’m someone that jumps before I can talk myself out of doing something scary.</p>
-
-                    <ul class="social-links">
-						<li><img class="social" src="{% static 'images/facebook.png' %}"></li>
-						<li><img class="social" src="{% static 'images/linkedin.png' %}"></li>
-						<li><img class="social" src="{% static 'images/twitter.png' %}"></li>
-						<li><img class="social" src="{% static 'images/youtube.png' %}"></li>
-					</ul>
-          </div>
+        <div class="ci">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+            />
+          </svg>
+          <a href="mailto:areesha21314@gmail.com">areesha21314@gmail.com</a>
+        </div>
+        <div class="ci">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+            />
+          </svg>
+          Karachi, Pakistan
+        </div>
+        <div class="ci">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M18.5 18.5V13.2A3.26 3.26 0 0 0 15.24 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17A1.4 1.4 0 0 1 15.71 13.57V18.5H18.5M6.88 8.56A1.68 1.68 0 0 0 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19A1.69 1.69 0 0 0 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56M8.27 18.5V10.13H5.5V18.5H8.27Z"
+            />
+          </svg>
+          <a href="https://linkedin.com/in/areeshasattar" target="_blank"
+            >linkedin.com/in/areeshasattar</a
+          >
+        </div>
+        <div class="ci">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+            />
+          </svg>
+          <a href="https://github.com/GlitchPhantomX" target="_blank"
+            >github.com/GlitchPhantomX</a
+          >
+        </div>
+        <div class="ci">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m-1 17.93V18c0-.55.45-1 1-1s1 .45 1 1v1.93A8 8 0 0 1 4.07 13H6a1 1 0 0 0 0-2H4.07A8 8 0 0 1 11 4.07V6a1 1 0 0 0 2 0V4.07A8 8 0 0 1 19.93 11H18a1 1 0 0 0 0 2h1.93A8 8 0 0 1 13 19.93z"
+            />
+          </svg>
+          <a href="https://portfolio-two-hazel-66.vercel.app/" target="_blank"
+            >portfolio-two-hazel-66.vercel.app</a
+          >
         </div>
       </div>
-      <br>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="card card-body h-100">
-          <h5>My Experience as a Developer</h5>
-					<hr>
-					<p>Full stack developer at FOI laboratories.</p>
-					<p>Designed, built and managed a lab management system as a sole developer. System supported thousands of customers with a UI for Lab Admins and a customer dashboard.</p>
-					
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card card-body h-100">
-            <h5>What I Know</h5>
-					<hr>
-					<p>Python, Django, HTML/CSS, JavaScript/Jquery, React, Postgres, AWS and APIs such as google maps, JavaScript charts and a whole bunch more I can’t possibly mention in one sentence! ;)</p>
-					<p>PS: Working on Node JS, Mongo DB and Machine Learning.</p>
-          </div>
-        </div>
-      </div>
-        <br>
-       <div class="row">
-        <div class="col-md-6">
-          <div class="card card-body h-100">
-            	<h5>How I Learn</h5>
-					<hr>
-					<p>Reverse Engineer & Build Ugly Prototypes First.</p>
 
-					<p>I can learn just about anything by having a final product to tear apart piece by piece. I break the code where I need to figure out why things work the way they do. Documentation is just a reference.</p>
+      <!-- ══ BODY ══ -->
+      <div class="body">
+        <!-- PROFESSIONAL SUMMARY -->
+        <section class="section">
+          <div class="sec-head">
+            <h2>Professional Summary</h2>
+            <div class="sec-rule"></div>
           </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card card-body h-100">
-            	<h5>My Short Term Goals</h5>
-				<hr>
-				<p>After almost two years of supporting my system at the lab I’m ready to learn something new. I'll collaborating and sharing my experience with others on my blog (SayHelloWorld.co) & youtube channel.</p>
-				<p>Aside from building small projects I would love to enter a position where I can be part of a bigger team & learn from others with more experience than myself.</p>
+          <hr
+            style="
+              border: none;
+              border-top: 1px solid var(--rule);
+              margin-bottom: 14px;
+            "
+          />
+          <p class="profile-p">
+            Results-driven <strong>Web &amp; AI Developer</strong> with 2+ years
+            of hands-on, project-based experience building full-stack web
+            applications and AI-powered solutions. Proficient in
+            <strong>JavaScript, TypeScript, React.js, Next.js, Python,</strong>
+            and <strong>FastAPI</strong>. Skilled in designing RESTful APIs,
+            integrating OpenAI-powered agents, and deploying containerized
+            applications. Currently expanding into
+            <strong>Agentic AI architectures</strong>, prompt &amp; context
+            engineering, and autonomous multi-agent workflows. Passionate about
+            shipping production-quality software, continuous learning, and
+            solving real-world problems with modern technology.
+          </p>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="section">
+          <div class="sec-head">
+            <h2>Technical Skills</h2>
+            <div class="sec-rule"></div>
           </div>
-        </div>
+          <hr
+            style="
+              border: none;
+              border-top: 1px solid var(--rule);
+              margin-bottom: 16px;
+            "
+          />
+          <table class="skills-table">
+            <tr>
+              <td>
+                <p class="skill-cat">Frontend</p>
+                <p class="skill-list">
+                  React.js · Next.js · TypeScript · JavaScript · HTML5 · CSS3 ·
+                  Tailwind CSS
+                </p>
+              </td>
+              <td>
+                <p class="skill-cat">Backend &amp; APIs</p>
+                <p class="skill-list">
+                  Python · FastAPI · REST APIs · API Integration · Node.js
+                  (learning)
+                </p>
+              </td>
+              <td>
+                <p class="skill-cat">AI &amp; Agents</p>
+                <p class="skill-list">
+                  OpenAI SDK · OpenAI Agents SDK · Prompt Engineering · Context
+                  Engineering · Claude Code CLI · Gemini CLI · SpecKit Plus
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-top: 14px">
+                <p class="skill-cat">Database &amp; CMS</p>
+                <p class="skill-list">MongoDB · MySQL · CMS Platforms</p>
+              </td>
+              <td style="padding-top: 14px">
+                <p class="skill-cat">DevOps &amp; Cloud</p>
+                <p class="skill-list">
+                  Docker · Kubernetes · Vercel · Git · GitHub · Postman
+                </p>
+              </td>
+              <td style="padding-top: 14px">
+                <p class="skill-cat">Languages</p>
+                <p class="skill-list">English (Fluent) · Urdu (Native)</p>
+              </td>
+            </tr>
+          </table>
+        </section>
+
+        <!-- WORK EXPERIENCE -->
+        <section class="section">
+          <div class="sec-head">
+            <h2>Work Experience</h2>
+            <div class="sec-rule"></div>
+          </div>
+          <hr
+            style="
+              border: none;
+              border-top: 1px solid var(--rule);
+              margin-bottom: 18px;
+            "
+          />
+
+          <div class="entry">
+            <div class="entry-top">
+              <span class="entry-where"
+                >Self-Directed Projects &amp; Open Source</span
+              >
+              <span class="entry-date">2023 – Present</span>
+            </div>
+            <p class="entry-title">
+              Full-Stack Web &amp; AI Developer — Portfolio Projects
+            </p>
+            <div class="entry-body">
+              <p>
+                Independently designed, built, and shipped multiple full-stack
+                web and AI-powered applications, demonstrating end-to-end
+                product ownership from architecture to deployment.
+              </p>
+              <ul class="bullets">
+                <li>
+                  Built scalable web applications using
+                  <strong>React.js</strong> and <strong>Next.js</strong> with
+                  TypeScript, implementing component-driven architecture and
+                  responsive UI/UX.
+                </li>
+                <li>
+                  Developed backend REST APIs with
+                  <strong>Python &amp; FastAPI</strong>, handling data modeling,
+                  validation, and database integration with MongoDB and MySQL.
+                </li>
+                <li>
+                  Integrated <strong>OpenAI SDK</strong> to build AI-powered
+                  features including intelligent assistants, automated
+                  workflows, and context-aware chat interfaces.
+                </li>
+                <li>
+                  Containerized applications using <strong>Docker</strong> and
+                  managed orchestration with <strong>Kubernetes</strong> for
+                  reliable, scalable deployments.
+                </li>
+                <li>
+                  Deployed production applications on
+                  <strong>Vercel</strong> with CI/CD pipelines using GitHub
+                  Actions.
+                </li>
+                <li>
+                  Practiced modern <strong>agentic AI workflows</strong> using
+                  OpenAI Agents SDK, Claude Code CLI, and Gemini CLI to build
+                  autonomous task-solving agents.
+                </li>
+              </ul>
+              <div class="tags">
+                <span class="tag">React.js</span><span class="tag">Next.js</span
+                ><span class="tag">FastAPI</span>
+                <span class="tag">OpenAI SDK</span
+                ><span class="tag">Docker</span><span class="tag">MongoDB</span>
+                <span class="tag">TypeScript</span
+                ><span class="tag">Vercel</span>
+              </div>
+              <p style="margin-top: 10px">
+                <strong>Live Portfolio:</strong>
+                <a
+                  href="https://portfolio-two-hazel-66.vercel.app/"
+                  target="_blank"
+                  >portfolio-two-hazel-66.vercel.app</a
+                >
+                &nbsp;&nbsp;<strong>GitHub:</strong>
+                <a href="https://github.com/GlitchPhantomX" target="_blank"
+                  >github.com/GlitchPhantomX</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="entry">
+            <div class="entry-top">
+              <span class="entry-where">Research &amp; Independent Study</span>
+              <span class="entry-date">2024 – Present</span>
+            </div>
+            <p class="entry-title">Agentic AI Researcher &amp; Developer</p>
+            <div class="entry-body">
+              <ul class="bullets">
+                <li>
+                  Designing and building
+                  <strong>multi-agent AI systems</strong> using the OpenAI
+                  Agents SDK, exploring tool use, handoffs, and orchestration
+                  patterns.
+                </li>
+                <li>
+                  Applying advanced <strong>Prompt Engineering</strong> and
+                  <strong>Context Engineering</strong> techniques to optimize
+                  LLM performance for production use-cases.
+                </li>
+                <li>
+                  Experimenting with <strong>Claude Code CLI</strong> and
+                  <strong>Gemini CLI</strong> for agentic coding, automated file
+                  management, and intelligent task automation.
+                </li>
+                <li>
+                  Developing
+                  <strong>AI-powered automation workflows</strong> that
+                  integrate external APIs, databases, and LLM decision-making
+                  for end-to-end task completion.
+                </li>
+                <li>
+                  Working with <strong>SpecKit Plus</strong> for spec-driven
+                  development and AI-assisted software architecture.
+                </li>
+              </ul>
+              <div class="tags">
+                <span class="tag">Agentic AI</span
+                ><span class="tag">OpenAI Agents SDK</span>
+                <span class="tag">Prompt Engineering</span
+                ><span class="tag">Context Engineering</span>
+                <span class="tag">Claude Code CLI</span
+                ><span class="tag">Gemini CLI</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section">
+          <div class="sec-head">
+            <h2>Featured Projects</h2>
+            <div class="sec-rule"></div>
+          </div>
+          <hr
+            style="
+              border: none;
+              border-top: 1px solid var(--rule);
+              margin-bottom: 18px;
+            "
+          />
+
+          <div class="entry">
+            <div class="entry-top">
+              <span class="entry-where">Next.js · TypeScript · Vercel</span>
+              <span class="entry-date">2024</span>
+            </div>
+            <p class="entry-title">Integrated Developer Portfolio</p>
+            <div class="entry-body">
+              <p>
+                A fully responsive, production-deployed personal portfolio
+                showcasing full-stack projects and AI experiments. Built with
+                Next.js and TypeScript for optimal performance and SEO.
+              </p>
+              <div class="tags">
+                <span class="tag">Next.js</span
+                ><span class="tag">TypeScript</span
+                ><span class="tag">Vercel</span>
+              </div>
+              <p style="margin-top: 8px">
+                <strong>Live:</strong>
+                <a
+                  href="https://portfolio-two-hazel-66.vercel.app/"
+                  target="_blank"
+                  >portfolio-two-hazel-66.vercel.app</a
+                >
+                &nbsp;&nbsp;<strong>GitHub:</strong>
+                <a
+                  href="https://github.com/GlitchPhantomX/portfolio.git"
+                  target="_blank"
+                  >GlitchPhantomX/portfolio</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="entry">
+            <div class="entry-top">
+              <span class="entry-where"
+                >Python · FastAPI · OpenAI SDK · MongoDB</span
+              >
+              <span class="entry-date">2024</span>
+            </div>
+            <p class="entry-title">AI-Powered REST API Backend</p>
+            <div class="entry-body">
+              <p>
+                Designed and built a RESTful backend with FastAPI integrating
+                OpenAI SDK for intelligent request processing. Features include
+                async endpoints, MongoDB persistence, JWT authentication, and
+                containerized Docker deployment.
+              </p>
+              <div class="tags">
+                <span class="tag">Python</span><span class="tag">FastAPI</span
+                ><span class="tag">OpenAI</span> <span class="tag">MongoDB</span
+                ><span class="tag">Docker</span><span class="tag">JWT</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="entry">
+            <div class="entry-top">
+              <span class="entry-where">OpenAI Agents SDK · Python</span>
+              <span class="entry-date">2025</span>
+            </div>
+            <p class="entry-title">Multi-Agent Autonomous Workflow System</p>
+            <div class="entry-body">
+              <p>
+                Engineered an agentic system using the OpenAI Agents SDK that
+                orchestrates multiple AI agents for task decomposition, tool
+                use, and automated decision-making — reducing manual effort on
+                complex workflows.
+              </p>
+              <div class="tags">
+                <span class="tag">Agentic AI</span
+                ><span class="tag">OpenAI Agents SDK</span>
+                <span class="tag">Python</span
+                ><span class="tag">Automation</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- EDUCATION -->
+        <section class="section">
+          <div class="sec-head">
+            <h2>Education &amp; Certifications</h2>
+            <div class="sec-rule"></div>
+          </div>
+          <hr
+            style="
+              border: none;
+              border-top: 1px solid var(--rule);
+              margin-bottom: 18px;
+            "
+          />
+
+          <div class="entry">
+            <div class="entry-top">
+              <span class="entry-where"
+                >Governor House Tech Program – Karachi, Pakistan</span
+              >
+              <span class="entry-date">Completed: 2024</span>
+            </div>
+            <p class="entry-title">IT Certification — Full Stack Development</p>
+            <div class="entry-body">
+              <p>
+                Intensive full-stack program covering web development, cloud
+                technologies, and modern AI tooling. Currently expanding
+                curriculum into Agentic AI, Intelligent Agents, Prompt
+                Engineering, Context Engineering, OpenAI Agents SDK, Claude Code
+                CLI, and Gemini CLI.
+              </p>
+              <div class="tags">
+                <span class="tag">Full Stack</span
+                ><span class="tag">Agentic AI</span>
+                <span class="tag">Cloud</span><span class="tag">Certified</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="entry">
+            <div class="entry-top">
+              <span class="entry-where"
+                >Govt. Degree Girl College 11-i – Karachi, Pakistan</span
+              >
+              <span class="entry-date">Completed: 2022</span>
+            </div>
+            <p class="entry-title">Intermediate — Pre-Engineering</p>
+          </div>
+
+          <div class="entry">
+            <div class="entry-top">
+              <span class="entry-where"
+                >Major Shabbir Sharif Girls Secondary School – Karachi,
+                Pakistan</span
+              >
+              <span class="entry-date">Completed: 2020</span>
+            </div>
+            <p class="entry-title">Matriculation — Science</p>
+          </div>
+        </section>
+
+        <!-- WHAT SETS ME APART -->
+        <section class="section">
+          <div class="sec-head">
+            <h2>What Sets Me Apart</h2>
+            <div class="sec-rule"></div>
+          </div>
+          <hr
+            style="
+              border: none;
+              border-top: 1px solid var(--rule);
+              margin-bottom: 14px;
+            "
+          />
+          <ul class="bullets">
+            <li>
+              <strong>Self-taught, project-driven learner</strong> — every skill
+              was earned by building real products, not just completing
+              tutorials.
+            </li>
+            <li>
+              <strong>Full-stack + AI intersection</strong> — rare combination
+              of frontend polish, backend architecture, and cutting-edge agentic
+              AI development.
+            </li>
+            <li>
+              <strong>Production mindset</strong> — experienced with deployment
+              pipelines, Docker, Kubernetes, and shipping to live users on
+              Vercel.
+            </li>
+            <li>
+              <strong>Early adopter of emerging AI tools</strong> — actively
+              working with Claude Code CLI, Gemini CLI, and OpenAI Agents SDK as
+              they launched.
+            </li>
+            <li>
+              <strong>Rapid skill acquisition</strong> — consistently moved from
+              zero to deployed in every technology stack tackled.
+            </li>
+          </ul>
+        </section>
       </div>
+
+      <!-- ══ FOOTER ══ -->
+      <footer class="footer-bar">
+        <span
+          >Areesha Sattar &nbsp;·&nbsp; Web &amp; AI Developer &nbsp;·&nbsp;
+          Karachi, Pakistan</span
+        >
+        <div class="footer-links">
+          <a href="https://portfolio-two-hazel-66.vercel.app/" target="_blank"
+            >Portfolio</a
+          >
+          <a href="https://linkedin.com/in/areeshasattar" target="_blank"
+            >LinkedIn</a
+          >
+          <a href="https://github.com/GlitchPhantomX" target="_blank">GitHub</a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
